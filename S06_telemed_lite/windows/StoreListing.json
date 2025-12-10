@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Telemed Lite",
+    "description": "Telemed Lite\n\nTelemedicina ultraliviana sin video.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Health & Fitness",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}

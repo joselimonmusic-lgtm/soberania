@@ -1,0 +1,16 @@
+{
+  "name": "Mental Breath",
+  "short_name": "Mental Breath",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Salud mental con ejercicios guiados.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
