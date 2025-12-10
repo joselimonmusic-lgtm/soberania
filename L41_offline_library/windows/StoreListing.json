@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Offline Library",
+    "description": "Offline Library\n\nBiblioteca digital offline.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Education",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}

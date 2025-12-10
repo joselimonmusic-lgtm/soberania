@@ -1,0 +1,16 @@
+{
+  "name": "Local Guitar",
+  "short_name": "Local Guitar",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Aprender guitarra sin streaming.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

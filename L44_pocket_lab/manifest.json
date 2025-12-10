@@ -1,0 +1,16 @@
+{
+  "name": "Pocket Lab",
+  "short_name": "Pocket Lab",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Laboratorio de ciencia con cámara.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
