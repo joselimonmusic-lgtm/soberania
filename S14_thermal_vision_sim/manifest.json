@@ -1,0 +1,16 @@
+{
+  "name": "Thermal Vision Sim",
+  "short_name": "Thermal Vision Sim",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Detector de fiebre virtual (RGB).",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

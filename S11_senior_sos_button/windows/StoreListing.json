@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Senior SOS Button",
+    "description": "Senior SOS Button\n\nBotón de emergencia para adultos mayores.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Health & Fitness",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}

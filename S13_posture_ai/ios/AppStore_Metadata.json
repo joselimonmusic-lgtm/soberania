@@ -1,0 +1,15 @@
+{
+  "sku": "AG-S13",
+  "locale": "es-MX",
+  "title": "Posture AI",
+  "subtitle": "Medir postura con cámara.",
+  "description": "Medir postura con cámara.\n\nDesarrollado por Antigravity. Funciona 100% Offline.",
+  "keywords": "offline, salud, utilidad, herramienta",
+  "primary_category": "Medical",
+  "privacy_url": "https://antigravity.io/privacy",
+  "support_url": "https://antigravity.io/support",
+  "pricing": {
+    "tier": 0,
+    "is_free": true
+  }
+}

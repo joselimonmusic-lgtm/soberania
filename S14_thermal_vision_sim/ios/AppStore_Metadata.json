@@ -1,0 +1,15 @@
+{
+  "sku": "AG-S14",
+  "locale": "es-MX",
+  "title": "Thermal Vision Sim",
+  "subtitle": "Detector de fiebre virtual (RG",
+  "description": "Detector de fiebre virtual (RGB).\n\nDesarrollado por Antigravity. Funciona 100% Offline.",
+  "keywords": "offline, salud, utilidad, herramienta",
+  "primary_category": "Medical",
+  "privacy_url": "https://antigravity.io/privacy",
+  "support_url": "https://antigravity.io/support",
+  "pricing": {
+    "tier": 0,
+    "is_free": true
+  }
+}

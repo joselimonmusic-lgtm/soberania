@@ -1,0 +1,16 @@
+{
+  "name": "Symptom PDF Log",
+  "short_name": "Symptom PDF Log",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Diario de síntomas exportable.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

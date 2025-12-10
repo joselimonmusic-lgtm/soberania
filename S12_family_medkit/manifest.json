@@ -1,0 +1,16 @@
+{
+  "name": "Family MedKit",
+  "short_name": "Family MedKit",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Inventario de botiquín familiar.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
