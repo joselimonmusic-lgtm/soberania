@@ -1,0 +1,16 @@
+{
+  "name": "Trash Route DIY",
+  "short_name": "Trash Route DIY",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Ruteo de basura informal.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

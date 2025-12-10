@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Trash Route DIY",
+    "description": "Trash Route DIY\n\nRuteo de basura informal.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Utilities & Tools",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}

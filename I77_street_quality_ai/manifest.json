@@ -1,0 +1,16 @@
+{
+  "name": "Street Quality AI",
+  "short_name": "Street Quality AI",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Evaluar calidad de calles.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

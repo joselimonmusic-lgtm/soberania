@@ -1,0 +1,16 @@
+{
+  "name": "Community News CMS",
+  "short_name": "Community News CMS",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Mini CMS para periodismo.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
