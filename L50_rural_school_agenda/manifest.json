@@ -1,0 +1,16 @@
+{
+  "name": "Rural School Agenda",
+  "short_name": "Rural School Agenda",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Agenda digital para escuelas.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
