@@ -1,0 +1,16 @@
+{
+  "name": "Digital Wallet Docs",
+  "short_name": "Digital Wallet Docs",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Cartera de documentos personales.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

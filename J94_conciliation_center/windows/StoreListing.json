@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Conciliation Center",
+    "description": "Conciliation Center\n\nCentro de conciliación digital.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Government & Politics",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}
