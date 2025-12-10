@@ -1,0 +1,15 @@
+{
+  "sku": "AG-J97",
+  "locale": "es-MX",
+  "title": "Danger Map Night",
+  "subtitle": "Mapa de puntos inseguros.",
+  "description": "Mapa de puntos inseguros.\n\nDesarrollado por Antigravity. Funciona 100% Offline.",
+  "keywords": "offline, justicia, utilidad, herramienta",
+  "primary_category": "Reference",
+  "privacy_url": "https://antigravity.io/privacy",
+  "support_url": "https://antigravity.io/support",
+  "pricing": {
+    "tier": 0,
+    "is_free": true
+  }
+}
