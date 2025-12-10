@@ -1,0 +1,16 @@
+{
+  "name": "Service Report",
+  "short_name": "Service Report",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Reportar fallas en servicios.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
