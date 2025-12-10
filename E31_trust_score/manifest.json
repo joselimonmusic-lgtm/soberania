@@ -1,0 +1,16 @@
+{
+  "name": "Trust Score",
+  "short_name": "Trust Score",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Reputación comunitaria para comercios.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

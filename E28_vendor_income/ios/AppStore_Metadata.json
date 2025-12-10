@@ -1,0 +1,15 @@
+{
+  "sku": "AG-E28",
+  "locale": "es-MX",
+  "title": "Vendor Income",
+  "subtitle": "Control de ingresos ambulantes",
+  "description": "Control de ingresos ambulantes.\n\nDesarrollado por Antigravity. Funciona 100% Offline.",
+  "keywords": "offline, economia, utilidad, herramienta",
+  "primary_category": "Finance",
+  "privacy_url": "https://antigravity.io/privacy",
+  "support_url": "https://antigravity.io/support",
+  "pricing": {
+    "tier": 0,
+    "is_free": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Street Invoice",
+    "description": "Street Invoice\n\nMini-facturación para informales.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Personal Finance",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}
