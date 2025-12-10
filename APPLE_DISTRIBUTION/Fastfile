@@ -1,0 +1,708 @@
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push all 100 apps to App Store"
+  lane :release_all do
+    
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s01",
+      ipa: "./apps/SALUD/S01_chat_diagn_stico_sms/ios/S01.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s02",
+      ipa: "./apps/SALUD/S02_first_aid_offline/ios/S02.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s03",
+      ipa: "./apps/SALUD/S03_cardiocam_ppg/ios/S03.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s04",
+      ipa: "./apps/SALUD/S04_vocal_stress_detector/ios/S04.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s05",
+      ipa: "./apps/SALUD/S05_meds_control_mini/ios/S05.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s06",
+      ipa: "./apps/SALUD/S06_telemed_lite/ios/S06.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s07",
+      ipa: "./apps/SALUD/S07_mental_breath/ios/S07.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s08",
+      ipa: "./apps/SALUD/S08_dengue_tracker/ios/S08.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s09",
+      ipa: "./apps/SALUD/S09_safe_birth_protocol/ios/S09.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s10",
+      ipa: "./apps/SALUD/S10_symptom_pdf_log/ios/S10.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s11",
+      ipa: "./apps/SALUD/S11_senior_sos_button/ios/S11.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s12",
+      ipa: "./apps/SALUD/S12_family_medkit/ios/S12.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s13",
+      ipa: "./apps/SALUD/S13_posture_ai/ios/S13.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s14",
+      ipa: "./apps/SALUD/S14_thermal_vision_sim/ios/S14.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s15",
+      ipa: "./apps/SALUD/S15_rural_nutrition_guide/ios/S15.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s16",
+      ipa: "./apps/SALUD/S16_caregiver_checklist/ios/S16.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s17",
+      ipa: "./apps/SALUD/S17_glucose_log_ai/ios/S17.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s18",
+      ipa: "./apps/SALUD/S18_local_medic_map/ios/S18.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s19",
+      ipa: "./apps/SALUD/S19_outbreak_alert/ios/S19.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.s20",
+      ipa: "./apps/SALUD/S20_water_quality_ai/ios/S20.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e21",
+      ipa: "./apps/ECONOMIA/E21_community_wallet/ios/E21.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e22",
+      ipa: "./apps/ECONOMIA/E22_rosca_digital/ios/E22.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e23",
+      ipa: "./apps/ECONOMIA/E23_barter_local/ios/E23.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e24",
+      ipa: "./apps/ECONOMIA/E24_microjobs/ios/E24.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e25",
+      ipa: "./apps/ECONOMIA/E25_paper_id_qr/ios/E25.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e26",
+      ipa: "./apps/ECONOMIA/E26_offline_pos/ios/E26.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e27",
+      ipa: "./apps/ECONOMIA/E27_street_invoice/ios/E27.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e28",
+      ipa: "./apps/ECONOMIA/E28_vendor_income/ios/E28.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e29",
+      ipa: "./apps/ECONOMIA/E29_producer_market/ios/E29.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e30",
+      ipa: "./apps/ECONOMIA/E30_climate_microinsure/ios/E30.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e31",
+      ipa: "./apps/ECONOMIA/E31_trust_score/ios/E31.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e32",
+      ipa: "./apps/ECONOMIA/E32_job_kiosk_offline/ios/E32.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e33",
+      ipa: "./apps/ECONOMIA/E33_skill_up/ios/E33.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e34",
+      ipa: "./apps/ECONOMIA/E34_finance_planner_ai/ios/E34.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e35",
+      ipa: "./apps/ECONOMIA/E35_group_savings/ios/E35.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e36",
+      ipa: "./apps/ECONOMIA/E36_pre_sat_lite/ios/E36.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e37",
+      ipa: "./apps/ECONOMIA/E37_biz_dashboard/ios/E37.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e38",
+      ipa: "./apps/ECONOMIA/E38_social_qr_aid/ios/E38.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e39",
+      ipa: "./apps/ECONOMIA/E39_micro_erp/ios/E39.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.e40",
+      ipa: "./apps/ECONOMIA/E40_debt_manager/ios/E40.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l41",
+      ipa: "./apps/EDUCACION/L41_offline_library/ios/L41.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l42",
+      ipa: "./apps/EDUCACION/L42_trade_sim/ios/L42.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l43",
+      ipa: "./apps/EDUCACION/L43_zero_to_read/ios/L43.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l44",
+      ipa: "./apps/EDUCACION/L44_pocket_lab/ios/L44.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l45",
+      ipa: "./apps/EDUCACION/L45_micro_skills/ios/L45.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l46",
+      ipa: "./apps/EDUCACION/L46_local_guitar/ios/L46.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l47",
+      ipa: "./apps/EDUCACION/L47_visual_dictionary/ios/L47.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l48",
+      ipa: "./apps/EDUCACION/L48_homework_helper/ios/L48.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l49",
+      ipa: "./apps/EDUCACION/L49_brain_trainer/ios/L49.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l50",
+      ipa: "./apps/EDUCACION/L50_rural_school_agenda/ios/L50.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l51",
+      ipa: "./apps/EDUCACION/L51_math_photo_tutor/ios/L51.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l52",
+      ipa: "./apps/EDUCACION/L52_school_map/ios/L52.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l53",
+      ipa: "./apps/EDUCACION/L53_kids_storyteller/ios/L53.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l54",
+      ipa: "./apps/EDUCACION/L54_chem_sim_safe/ios/L54.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l55",
+      ipa: "./apps/EDUCACION/L55_long_text_reader/ios/L55.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l56",
+      ipa: "./apps/EDUCACION/L56_agro_course/ios/L56.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l57",
+      ipa: "./apps/EDUCACION/L57_retention_tool/ios/L57.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l58",
+      ipa: "./apps/EDUCACION/L58_tradition_wiki/ios/L58.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l59",
+      ipa: "./apps/EDUCACION/L59_finance_101/ios/L59.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.l60",
+      ipa: "./apps/EDUCACION/L60_first_tech/ios/L60.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i61",
+      ipa: "./apps/INFRAESTRUCTURA/I61_risk_map/ios/I61.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i62",
+      ipa: "./apps/INFRAESTRUCTURA/I62_service_report/ios/I62.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i63",
+      ipa: "./apps/INFRAESTRUCTURA/I63_volunteer_geo/ios/I63.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i64",
+      ipa: "./apps/INFRAESTRUCTURA/I64_shelter_manager/ios/I64.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i65",
+      ipa: "./apps/INFRAESTRUCTURA/I65_trash_log/ios/I65.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i66",
+      ipa: "./apps/INFRAESTRUCTURA/I66_quake_alert_crowd/ios/I66.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i67",
+      ipa: "./apps/INFRAESTRUCTURA/I67_water_truck_map/ios/I67.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i68",
+      ipa: "./apps/INFRAESTRUCTURA/I68_energy_dash/ios/I68.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i69",
+      ipa: "./apps/INFRAESTRUCTURA/I69_tool_share/ios/I69.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i70",
+      ipa: "./apps/INFRAESTRUCTURA/I70_verified_trades/ios/I70.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i71",
+      ipa: "./apps/INFRAESTRUCTURA/I71_transport_coord/ios/I71.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i72",
+      ipa: "./apps/INFRAESTRUCTURA/I72_food_bank_inv/ios/I72.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i73",
+      ipa: "./apps/INFRAESTRUCTURA/I73_brigade_route/ios/I73.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i74",
+      ipa: "./apps/INFRAESTRUCTURA/I74_animal_registry/ios/I74.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i75",
+      ipa: "./apps/INFRAESTRUCTURA/I75_home_repair_manual/ios/I75.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i76",
+      ipa: "./apps/INFRAESTRUCTURA/I76_energy_audit/ios/I76.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i77",
+      ipa: "./apps/INFRAESTRUCTURA/I77_street_quality_ai/ios/I77.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i78",
+      ipa: "./apps/INFRAESTRUCTURA/I78_trash_route_diy/ios/I78.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i79",
+      ipa: "./apps/INFRAESTRUCTURA/I79_infra_diy_guide/ios/I79.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.i80",
+      ipa: "./apps/INFRAESTRUCTURA/I80_community_news_cms/ios/I80.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j81",
+      ipa: "./apps/JUSTICIA/J81_panic_button_enc/ios/J81.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j82",
+      ipa: "./apps/JUSTICIA/J82_forensic_lens/ios/J82.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j83",
+      ipa: "./apps/JUSTICIA/J83_legal_ai_drafter/ios/J83.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j84",
+      ipa: "./apps/JUSTICIA/J84_bureaucracy_translator/ios/J84.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j85",
+      ipa: "./apps/JUSTICIA/J85_asset_qr_log/ios/J85.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j86",
+      ipa: "./apps/JUSTICIA/J86_missing_persons_protocol/ios/J86.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j87",
+      ipa: "./apps/JUSTICIA/J87_safe_report/ios/J87.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j88",
+      ipa: "./apps/JUSTICIA/J88_doc_verifier/ios/J88.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j89",
+      ipa: "./apps/JUSTICIA/J89_land_hash/ios/J89.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j90",
+      ipa: "./apps/JUSTICIA/J90_digital_wallet_docs/ios/J90.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j91",
+      ipa: "./apps/JUSTICIA/J91_extortion_alert/ios/J91.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j92",
+      ipa: "./apps/JUSTICIA/J92_simple_law/ios/J92.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j93",
+      ipa: "./apps/JUSTICIA/J93_portable_file/ios/J93.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j94",
+      ipa: "./apps/JUSTICIA/J94_conciliation_center/ios/J94.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j95",
+      ipa: "./apps/JUSTICIA/J95_detention_cam/ios/J95.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j96",
+      ipa: "./apps/JUSTICIA/J96_family_legal_log/ios/J96.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j97",
+      ipa: "./apps/JUSTICIA/J97_danger_map_night/ios/J97.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j98",
+      ipa: "./apps/JUSTICIA/J98_migration_assist/ios/J98.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j99",
+      ipa: "./apps/JUSTICIA/J99_legal_sim/ios/J99.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+
+    upload_to_app_store(
+      app_identifier: "com.antigravity.j100",
+      ipa: "./apps/JUSTICIA/J100_police_protocol_check/ios/J100.ipa",
+      skip_screenshots: true,
+      skip_metadata: false
+    )
+  end
+end

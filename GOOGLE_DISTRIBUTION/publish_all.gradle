@@ -1,0 +1,713 @@
+
+// Antigravity Mass Publisher Gradle Script
+
+plugins {
+    id 'com.github.triplet.play' version '3.7.0'
+}
+
+task publishAll100Apps {
+    doLast {
+        println "🚀 Starting Mass Upload to Google Play Console..."
+        
+        println "Uploading: Chat Diagnóstico SMS (S01)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S01_chat_diagn_stico_sms/android/S01.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: First Aid Offline (S02)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S02_first_aid_offline/android/S02.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: CardioCam PPG (S03)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S03_cardiocam_ppg/android/S03.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Vocal Stress Detector (S04)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S04_vocal_stress_detector/android/S04.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Meds Control Mini (S05)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S05_meds_control_mini/android/S05.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Telemed Lite (S06)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S06_telemed_lite/android/S06.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Mental Breath (S07)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S07_mental_breath/android/S07.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Dengue Tracker (S08)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S08_dengue_tracker/android/S08.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Safe Birth Protocol (S09)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S09_safe_birth_protocol/android/S09.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Symptom PDF Log (S10)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S10_symptom_pdf_log/android/S10.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Senior SOS Button (S11)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S11_senior_sos_button/android/S11.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Family MedKit (S12)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S12_family_medkit/android/S12.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Posture AI (S13)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S13_posture_ai/android/S13.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Thermal Vision Sim (S14)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S14_thermal_vision_sim/android/S14.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Rural Nutrition Guide (S15)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S15_rural_nutrition_guide/android/S15.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Caregiver Checklist (S16)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S16_caregiver_checklist/android/S16.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Glucose Log AI (S17)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S17_glucose_log_ai/android/S17.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Local Medic Map (S18)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S18_local_medic_map/android/S18.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Outbreak Alert (S19)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S19_outbreak_alert/android/S19.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Water Quality AI (S20)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/SALUD/S20_water_quality_ai/android/S20.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Community Wallet (E21)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E21_community_wallet/android/E21.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: ROSCA Digital (E22)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E22_rosca_digital/android/E22.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Barter Local (E23)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E23_barter_local/android/E23.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: MicroJobs (E24)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E24_microjobs/android/E24.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Paper ID QR (E25)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E25_paper_id_qr/android/E25.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Offline POS (E26)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E26_offline_pos/android/E26.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Street Invoice (E27)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E27_street_invoice/android/E27.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Vendor Income (E28)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E28_vendor_income/android/E28.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Producer Market (E29)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E29_producer_market/android/E29.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Climate MicroInsure (E30)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E30_climate_microinsure/android/E30.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Trust Score (E31)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E31_trust_score/android/E31.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Job Kiosk Offline (E32)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E32_job_kiosk_offline/android/E32.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Skill Up (E33)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E33_skill_up/android/E33.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Finance Planner AI (E34)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E34_finance_planner_ai/android/E34.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Group Savings (E35)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E35_group_savings/android/E35.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Pre-SAT Lite (E36)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E36_pre_sat_lite/android/E36.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Biz Dashboard (E37)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E37_biz_dashboard/android/E37.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Social QR Aid (E38)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E38_social_qr_aid/android/E38.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Micro ERP (E39)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E39_micro_erp/android/E39.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Debt Manager (E40)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/ECONOMIA/E40_debt_manager/android/E40.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Offline Library (L41)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L41_offline_library/android/L41.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Trade Sim (L42)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L42_trade_sim/android/L42.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Zero to Read (L43)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L43_zero_to_read/android/L43.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Pocket Lab (L44)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L44_pocket_lab/android/L44.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Micro Skills (L45)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L45_micro_skills/android/L45.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Local Guitar (L46)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L46_local_guitar/android/L46.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Visual Dictionary (L47)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L47_visual_dictionary/android/L47.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Homework Helper (L48)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L48_homework_helper/android/L48.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Brain Trainer (L49)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L49_brain_trainer/android/L49.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Rural School Agenda (L50)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L50_rural_school_agenda/android/L50.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Math Photo Tutor (L51)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L51_math_photo_tutor/android/L51.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: School Map (L52)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L52_school_map/android/L52.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Kids Storyteller (L53)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L53_kids_storyteller/android/L53.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Chem Sim Safe (L54)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L54_chem_sim_safe/android/L54.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Long Text Reader (L55)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L55_long_text_reader/android/L55.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Agro Course (L56)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L56_agro_course/android/L56.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Retention Tool (L57)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L57_retention_tool/android/L57.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Tradition Wiki (L58)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L58_tradition_wiki/android/L58.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Finance 101 (L59)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L59_finance_101/android/L59.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: First Tech (L60)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/EDUCACION/L60_first_tech/android/L60.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Risk Map (I61)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I61_risk_map/android/I61.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Service Report (I62)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I62_service_report/android/I62.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Volunteer Geo (I63)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I63_volunteer_geo/android/I63.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Shelter Manager (I64)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I64_shelter_manager/android/I64.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Trash Log (I65)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I65_trash_log/android/I65.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Quake Alert Crowd (I66)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I66_quake_alert_crowd/android/I66.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Water Truck Map (I67)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I67_water_truck_map/android/I67.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Energy Dash (I68)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I68_energy_dash/android/I68.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Tool Share (I69)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I69_tool_share/android/I69.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Verified Trades (I70)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I70_verified_trades/android/I70.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Transport Coord (I71)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I71_transport_coord/android/I71.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Food Bank Inv (I72)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I72_food_bank_inv/android/I72.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Brigade Route (I73)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I73_brigade_route/android/I73.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Animal Registry (I74)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I74_animal_registry/android/I74.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Home Repair Manual (I75)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I75_home_repair_manual/android/I75.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Energy Audit (I76)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I76_energy_audit/android/I76.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Street Quality AI (I77)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I77_street_quality_ai/android/I77.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Trash Route DIY (I78)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I78_trash_route_diy/android/I78.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Infra DIY Guide (I79)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I79_infra_diy_guide/android/I79.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Community News CMS (I80)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/INFRAESTRUCTURA/I80_community_news_cms/android/I80.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Panic Button Enc (J81)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J81_panic_button_enc/android/J81.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Forensic Lens (J82)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J82_forensic_lens/android/J82.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Legal AI Drafter (J83)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J83_legal_ai_drafter/android/J83.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Bureaucracy Translator (J84)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J84_bureaucracy_translator/android/J84.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Asset QR Log (J85)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J85_asset_qr_log/android/J85.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Missing Persons Protocol (J86)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J86_missing_persons_protocol/android/J86.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Safe Report (J87)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J87_safe_report/android/J87.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Doc Verifier (J88)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J88_doc_verifier/android/J88.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Land Hash (J89)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J89_land_hash/android/J89.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Digital Wallet Docs (J90)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J90_digital_wallet_docs/android/J90.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Extortion Alert (J91)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J91_extortion_alert/android/J91.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Simple Law (J92)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J92_simple_law/android/J92.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Portable File (J93)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J93_portable_file/android/J93.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Conciliation Center (J94)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J94_conciliation_center/android/J94.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Detention Cam (J95)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J95_detention_cam/android/J95.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Family Legal Log (J96)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J96_family_legal_log/android/J96.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Danger Map Night (J97)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J97_danger_map_night/android/J97.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Migration Assist (J98)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J98_migration_assist/android/J98.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Legal Sim (J99)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J99_legal_sim/android/J99.aab"),
+        //    track: "production"
+        // )
+        
+
+        println "Uploading: Police Protocol Check (J100)..."
+        // playPublisher.uploadBundle(
+        //    bundleFile: file("./apps/JUSTICIA/J100_police_protocol_check/android/J100.aab"),
+        //    track: "production"
+        // )
+        
+        println "✅ All 100 apps processed."
+    }
+}
