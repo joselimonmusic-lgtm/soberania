@@ -1,0 +1,16 @@
+{
+  "name": "Chem Sim Safe",
+  "short_name": "Chem Sim Safe",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Simulador de laboratorio químico.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
