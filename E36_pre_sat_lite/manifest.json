@@ -1,0 +1,16 @@
+{
+  "name": "Pre-SAT Lite",
+  "short_name": "Pre-SAT Lite",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Pre-facturador fiscal ultraliviano.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

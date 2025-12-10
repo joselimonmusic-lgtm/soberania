@@ -1,0 +1,16 @@
+{
+  "name": "Social QR Aid",
+  "short_name": "Social QR Aid",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Distribución de ayuda vía QR.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

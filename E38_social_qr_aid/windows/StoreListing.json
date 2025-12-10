@@ -1,0 +1,17 @@
+{
+  "baseListing": {
+    "title": "Social QR Aid",
+    "description": "Social QR Aid\n\nDistribución de ayuda vía QR.\n\nFEATURES:\n- Windows 11 Optimized\n- Offline First Architecture\n- Secure Local Storage\n\nPowered by Antigravity Core.",
+    "features": [
+      "Offline Mode",
+      "Secure Data",
+      "Fast Performance"
+    ],
+    "releaseNotes": "Initial Release v1.0.0"
+  },
+  "category": "Personal Finance",
+  "pricing": {
+    "priceId": "Free",
+    "isFree": true
+  }
+}

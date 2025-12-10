@@ -1,0 +1,15 @@
+{
+  "sku": "AG-E38",
+  "locale": "es-MX",
+  "title": "Social QR Aid",
+  "subtitle": "Distribución de ayuda vía QR.",
+  "description": "Distribución de ayuda vía QR.\n\nDesarrollado por Antigravity. Funciona 100% Offline.",
+  "keywords": "offline, economia, utilidad, herramienta",
+  "primary_category": "Finance",
+  "privacy_url": "https://antigravity.io/privacy",
+  "support_url": "https://antigravity.io/support",
+  "pricing": {
+    "tier": 0,
+    "is_free": true
+  }
+}
