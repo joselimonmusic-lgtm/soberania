@@ -1,0 +1,16 @@
+{
+  "name": "Tool Share",
+  "short_name": "Tool Share",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Compartir herramientas vecinales.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

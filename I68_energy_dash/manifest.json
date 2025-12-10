@@ -1,0 +1,16 @@
+{
+  "name": "Energy Dash",
+  "short_name": "Energy Dash",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Dashboard de energía comunitaria.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Quake Alert Crowd",
+  "short_name": "Quake Alert Crowd",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Alertas sísmicas locales.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
